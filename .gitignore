@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 705f58a895ee36968d462b7e32c99d6ef9e982c3
 ###################
 node_modules/
 .sass-cache/
@@ -27,4 +30,8 @@ css/
 .Spotlight-V100
 .Trashes
 ehthumbs.db
+<<<<<<< HEAD
 Thumbs.db
+=======
+Thumbs.db
+>>>>>>> 705f58a895ee36968d462b7e32c99d6ef9e982c3
