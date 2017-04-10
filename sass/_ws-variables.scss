@@ -1,0 +1,46 @@
+//== Custom
+//
+//Custom Variables
+
+$ws-transition: all 0.2s ease-in;
+
+
+//== Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+
+$ws-gray-base:              #000 !default;
+$ws-gray-darker:            lighten($ws-gray-base, 13.5%) !default; // #222
+$ws-gray-dark:              lighten($ws-gray-base, 20%) !default;   // #333
+$ws-gray:                   lighten($ws-gray-base, 33.5%) !default; // #555
+$ws-gray-light:             lighten($ws-gray-base, 46.7%) !default; // #777
+$ws-gray-lighter:           lighten($ws-gray-base, 93.5%) !default; // #eee
+
+$ws-brand-primary:         darken(#428bca, 6.5%) !default; // #337ab7
+$ws-brand-success:         #5cb85c !default;
+$ws-brand-info:            #5bc0de !default;
+$ws-brand-warning:         #f0ad4e !default;
+$ws-brand-danger:          #d9534f !default;
+
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+//** Background color for `<body>`.
+$ws-body-bg:               #fff !default;
+//** Global text color on `<body>`.
+$ws-text-color:            $ws-gray-dark !default;
+
+//** Global textual link color.
+$ws-link-color:            $ws-brand-primary !default;
+
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+$ws-font-family-sans-serif:  "Open Sans", Helvetica, Arial, sans-serif !default;
+$ws-font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+
+$ws-font-size-base:          16px !default;
